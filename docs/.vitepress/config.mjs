@@ -27,6 +27,13 @@ export default defineConfig({
       },
       { text: "条款与政策", link: "/policy/", activeMatch: "^/policy/" }
     ],
+    socialLinks: [
+      {
+        icon: "github",
+        link: "https://github.com/seckjs/seckjs.github.io",
+        ariaLabel: "文档仓库"
+      }
+    ],
     search: {
       provider: "local"
     },
